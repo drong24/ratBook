@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Fried Chicken</h1>
+    <img src="./pictures/korean chicken.png" alt="Korean Fried Chicken"
+    style="width:250px;height:300px;">
+    <h3>Discription</h3>
+    <p>Korean fried chicken half original half yangnyeom style</p>
+    <ul>
+        <li>Chicken Thigh</li>
+        <li>Flour</li>
+        <li>Gochujang</li>
+        <li>Soy Sauce</li>
+        <li>Sugar</li>
+    </ul>
+    <ol>
+        <li>Cut chicken to pieces slightly bigger than your thumb</li>
+        <li>Season half in salt and pepper and let it sit for 1/2 hour</li>
+        <li>Mix flour and water (and starch for increased crisp) together until a smooth batter is formed</li>
+        <li>Dip chicken in batter and fry until golden brown</li>
+        <li>Mix a gochujang, soy sauce, and sugar in a bowl</li>
+        <li>Place unsalted chicken and sauce mix in heated pan and mix until chicken is coated in sauce</li>
+        <li>(Optional) Sprinkle sesame seeds on chicken</li>
+        <l1>Enjoy!</l1> 
+    </ol>
+    <a href="./index.html"> Main Page</a>
+</body>
+</html>
