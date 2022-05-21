@@ -4,8 +4,26 @@
 }
 
 .heading {
+    text-align: center;
+    padding: 30px;
     font-family: Tahoma, sans-serif
+
 }
 .content{
+    text-align: center;
+    margin-bottom: 30px;
     font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+.menu{
+    background-color: orange;
+    color: rgb(0, 0, 0);
+    display:inline-block;
+    padding: 5px;
+    margin-block-end: auto;
+}
+.menu_icon{
+    background-color: orange;
+    margin-left: 40px;
+    display:inline-block;
+    padding: 30px;
 }
