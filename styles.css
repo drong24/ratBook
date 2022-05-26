@@ -1,6 +1,7 @@
 * {
     background-color: rgb(20, 11, 65);
     color: antiquewhite;
+    text-align: center;
     /*border: 1px solid red;*/
 }
 
@@ -14,6 +15,7 @@
     text-align: center;
     margin-bottom: 30px;
     font-family: 'Times New Roman', Times, serif, sans-serif;
+    padding: 100px;
 }
 
 .menu{
