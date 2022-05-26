@@ -1,6 +1,7 @@
 * {
-    background-color: black;
+    background-color: rgb(20, 11, 65);
     color: antiquewhite;
+    /*border: 1px solid red;*/
 }
 
 .heading {
@@ -14,21 +15,26 @@
     margin-bottom: 30px;
     font-family: 'Times New Roman', Times, serif, sans-serif;
 }
+
 .menu{
-    background-color: orange;
-    color: rgb(0, 0, 0);
-    display:inline-block;
-    padding: 5px;
+    background-color: black;
+    display: flex;
+    align-items: center;
     margin-block-end: auto;
-    width: 1000px;
+    width: 100%;
     overflow: hidden;
 }
+.icon {
+    width: 80px;
+    height: auto;
+}
 .menu a {
-    background-color: orange;
+    background-color: black;
 }
 .menu_icon{
-    background-color: orange;
+    background-color: black;
     margin-left: 40px;
     display:inline-block;
     padding: 30px;
+    display:inline-block;
 }
