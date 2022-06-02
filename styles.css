@@ -1,32 +1,38 @@
 /* {
    border: 1px solid red;
-} */
-.menu{
+} */ 
+body, html {
+    margin: 0px;
+    padding: 0px;
+}
+
+.index_top {
     background-color: #1f2937;
     color: #F9FAF8;
+    padding-bottom: 30px;
+}
+.menu{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .icon {
-    margin-right: 100px;
+    margin: 20px;
     width: 80px;
     height: auto;
+    border: 1px solid #3882F6;
 }
 .menu a {
-    background-color: #1f2937;
     color: #F9FAF8;
     margin-right: 40px;
 }
 .menu_icon{
-    background-color: #1f2937;
+    
     display:inline-block;
    
 }
 .title{
-    background-color: #1f2937;
-    color: #F9FAF8;
     display: flex;
     padding: 30px;
 }
@@ -38,18 +44,27 @@
     border-radius: 8px;
 }
 .left_title {
-    flex: 1
+    font-size: 18px;
+    color: #E5E7EB;
+    flex: 1 1 0 
+}
+.title_img{
+    width:200px;
+    height:auto;
+    margin-right: 80px;
+}
+.ratBook{
+    font-size: 48px;
+    font-weight: 700;
 }
 .heading {
     text-align: center;
     padding: 30px;
-    font-family: Tahoma, sans-serif
 
 }
 .content{
     text-align: center;
     margin-bottom: 30px;
-    font-family: 'Times New Roman', Times, serif, sans-serif;
     padding: 100px;
 }
 .info {
@@ -75,4 +90,28 @@
     background-color: #E5E7EB;
     text-align: center;
     padding: 1em;
+}
+.call_to_action {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.small {
+    margin: 0px;
+    padding: 0px;
+}
+.call_left{
+    margin:25px;
+    align-items:baseline;
+}
+.button_2 {
+    border: 1px solid white;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 10px;
+    border-radius: 8px;
+    margin-right: 25px;
 }
