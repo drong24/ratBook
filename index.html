@@ -9,8 +9,22 @@
 </head>
 <body>
     <script>
-        let a = 10
-        console.log(9*a)
+        {
+        let usr = prompt("Who's there?", '');
+        if (usr === "" || usr === null) {
+            alert("Cancel")
+        }
+        else if (usr != "admin") {
+            alert("I don't know you")
+            prompt("Who's there?", '')
+        }
+        else if (usr === "admin") {
+            let pwd = prompt("Password?");
+            if (pwd === "TheMaster") alert("Welcome!")
+            else if (pwd === "" || pwd === null) alert("Cancel")
+            else if (pwd != "TheMaster") alert("Wrong password")
+            }
+        }
     </script>
     <div class="index_top">
         <div class="menu">

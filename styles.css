@@ -1,9 +1,15 @@
-/* {
+* {
    border: 1px solid red;
-} */ 
+}  
 body, html {
     margin: 0px;
     padding: 0px;
+}
+ul {
+    list-style-type: none;
+  }
+ol {
+    list-style-type: none;
 }
 
 .index_top {
