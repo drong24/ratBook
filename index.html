@@ -8,31 +8,13 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <script>
-        {
-        let usr = prompt("Who's there?", '');
-        if (usr === "" || usr === null) {
-            alert("Cancel")
-        }
-        else if (usr != "admin") {
-            alert("I don't know you")
-            prompt("Who's there?", '')
-        }
-        else if (usr === "admin") {
-            let pwd = prompt("Password?");
-            if (pwd === "TheMaster") alert("Welcome!")
-            else if (pwd === "" || pwd === null) alert("Cancel")
-            else if (pwd != "TheMaster") alert("Wrong password")
-            }
-        }
-    </script>
     <div class="index_top">
         <div class="menu">
             <img class="icon" src="./pictures/rat_icon.png" alt="rat_icon">
             <div class="menu_icon">
                 <a href="./index.html">ratBook</a>
                 <a href="./recipes/recipes.html">Recipes</a>
-                <a href="./index.html"> Notes</a>
+                <a href="./notes.html"> Notes</a>
                 <a href="./index.html">To Do</a>
             </div>
         </div>
